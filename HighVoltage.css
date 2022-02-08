@@ -1,10 +1,5 @@
-body {
-    
-    background-image: url('images/dirt.jpg');
-  
-   background-size: cover; 
- }
 
+<<<<<<< HEAD
  body, html {
     height: 100%;
 }
@@ -72,3 +67,5 @@ body {
 }
 
 /* I am so confused... */
+=======
+>>>>>>> 96c32bb7b41bccf813f28e2aa3852c55f18df215
