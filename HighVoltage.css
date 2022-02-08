@@ -1,6 +1,6 @@
 body {
     
-    background-image: url('images/dirt.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/dirt.jpg');
   
    background-size: cover; 
  }
@@ -13,7 +13,7 @@ body {
 
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/king.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/spacey.jpg");
 
   /* Set a specific height */
   height: 50%;
@@ -40,19 +40,20 @@ body {
 /* Style the navbar */
 #navbar {
   overflow: hidden;
-  background-color: rgb(127, 127, 127);
+  background-color: rgb(0, 0, 0);
 }
 
 /* Navbar links */
 #navbar a {
   float: left;
   display: block;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   padding: 14px;
   text-decoration: none;
-  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px rgb(206, 0, 233);
 }
+
 
 /* Page content */
 .content {
