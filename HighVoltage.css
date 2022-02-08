@@ -1,4 +1,13 @@
+body {
+    
+    background-image: url('images/dirt.jpg');
+  
+   background-size: cover; 
+ }
 
+ body, html {
+    height: 100%;
+}
 
 /* HERO IMAGE */
 
@@ -62,5 +71,4 @@
   padding-top: 60px;
 }
 
-/* I am so confused... */
-
+/* I am so confused...
