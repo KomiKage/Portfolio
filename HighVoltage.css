@@ -1,6 +1,6 @@
 body {
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/testTex.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/testTex.jpg');
   
    background-size: cover; 
  }
@@ -14,16 +14,23 @@ body {
   background-color: aliceblue; 
   border-color: #4500e7;
   border-style: inset; 
+  border-width: 5px;
   text-align: center;
 }
 
 .parasub{
-  color: rgb(0, 0, 0); 
-  background-color: aliceblue; 
-  border-color: #4500e7;
-  border-style: inset; 
+  color: aliceblue; 
   text-align: center;
+  font-size: 18px;
+  text-shadow: 2px 2px #000000;
 }
+
+.lain{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/vapor.jpg');
+  border-radius: 25px;
+  padding: 20px;
+}
+
 
 /* HERO IMAGE */
 
@@ -39,6 +46,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+
+  border-style: inset;
+  border-color: #00000059;
 
   border-radius: 0%;
 }
@@ -238,6 +248,15 @@ h1 {
   animation: glow 1s ease-in-out infinite alternate;
 }
 
+.glow1 {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow1 1s ease-in-out infinite alternate;
+  -moz-animation: glow1 1s ease-in-out infinite alternate;
+  animation: glow1 1s ease-in-out infinite alternate;
+}
+
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
@@ -247,6 +266,14 @@ h1 {
   }
 }
 
+@-webkit-keyframes glow1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #001aff, 0 0 40px #0077e6, 0 0 50px #00b8e6, 0 0 60px #009de6, 0 0 70px #001aaf;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #79e0ff, 0 0 40px #504dff, 0 0 50px #4d2eff, 0 0 60px #7023ff, 0 0 70px #5f4dff, 0 0 80px #1028b1;
+  }
+}
 /* Style the links inside the sidenav */
 #mySidenav a {
   position: absolute; /* Position them relative to the browser window */
@@ -285,6 +312,26 @@ h1 {
   background-color: #fbff00 /* Light Black */
 }
 
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.skill1 {width: 90%; background-color: #ff00bf;} /* Green */
+.skill2 {width: 80%; background-color: #eeff00;} /* Blue */
+.skill3 {width: 65%; background-color: #f44336;} /* Red */
+.skill4 {width: 60%; background-color: #00ccff;} /* Dark Grey */
 
 
 /* I am so confused...
