@@ -31,6 +31,15 @@ body {
   padding: 20px;
 }
 
+.thewired{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/yuh.jpg');
+  color: aliceblue;
+  width: 35%;
+  position: absolute;
+  right: 3%;
+  top: 115%;
+  border-radius: 25px;
+}
 
 /* HERO IMAGE */
 
@@ -257,6 +266,15 @@ h1 {
   animation: glow1 1s ease-in-out infinite alternate;
 }
 
+.glow2 {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow2 1s ease-in-out infinite alternate;
+  -moz-animation: glow2 1s ease-in-out infinite alternate;
+  animation: glow2 1s ease-in-out infinite alternate;
+}
+
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
@@ -274,6 +292,16 @@ h1 {
     text-shadow: 0 0 20px #fff, 0 0 30px #79e0ff, 0 0 40px #504dff, 0 0 50px #4d2eff, 0 0 60px #7023ff, 0 0 70px #5f4dff, 0 0 80px #1028b1;
   }
 }
+
+@-webkit-keyframes glow2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff520d, 0 0 40px #f1591d, 0 0 50px #e68200, 0 0 60px #f19f24, 0 0 70px #f37208;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff8dd9, 0 0 40px #ff5bc8, 0 0 50px #e75ca1, 0 0 60px #c910aa, 0 0 70px #c713af, 0 0 80px #eb3cc5;
+  }
+}
+
 /* Style the links inside the sidenav */
 #mySidenav a {
   position: absolute; /* Position them relative to the browser window */
@@ -328,10 +356,12 @@ h1 {
   color: white; /* White text color */
 }
 
-.skill1 {width: 90%; background-color: #ff00bf;} /* Green */
-.skill2 {width: 80%; background-color: #eeff00;} /* Blue */
-.skill3 {width: 65%; background-color: #f44336;} /* Red */
-.skill4 {width: 60%; background-color: #00ccff;} /* Dark Grey */
+.skill1 {width: 70%; background-color: #ff00bf;} /* Green */
+.skill2 {width: 60%; background-color: #eeff00;} /* Blue */
+.skill3 {width: 50%; background-color: #f44336;} /* Red */
+.skill4 {width: 50%; background-color: #00ccff;} /* Dark Grey */
+
+
 
 
 /* I am so confused...
