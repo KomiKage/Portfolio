@@ -41,6 +41,37 @@ body {
   border-radius: 25px;
 }
 
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+.projdiv {
+  width: 30%; 
+  position: relative; 
+  left: 5%;
+  border-color: #4500e7;
+  border-style: inset; 
+  border-width: 5px;
+  background-color: rgba(255, 255, 255, 0.411);
+}
+
+.projhead {
+  color: black; 
+  position: relative; 
+  text-align: center;
+}
+
+.projtext {
+  color: black; 
+  position: relative; 
+  text-align: center;
+}
 /* HERO IMAGE */
 
 .hero-image {
