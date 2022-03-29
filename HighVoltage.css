@@ -58,19 +58,22 @@ body {
   border-color: #4500e7;
   border-style: inset; 
   border-width: 5px;
-  background-color: rgba(255, 255, 255, 0.411);
+  background-color: rgb(255, 255, 255);
+  height: 750px;
 }
 
 .projhead {
   color: black; 
   position: relative; 
   text-align: center;
+  font-family: 'Aldrich';font-size: 22px;
 }
 
 .projtext {
   color: black; 
   position: relative; 
   text-align: center;
+  font-size: 20px;
 }
 /* HERO IMAGE */
 
@@ -106,6 +109,7 @@ body {
 /* Page content */
 .content {
   padding: 16px;
+  border-radius: 10px;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -353,12 +357,12 @@ h1 {
 /* The about link: 20px from the top with a green background */
 #about {
   top: 20px;
-  background-color: #f700ff;
+  background-color: #00f7ff;
 }
 
 #projects {
   top: 80px;
-  background-color: #fbff00; /* Blue */
+  background-color: #ff00f2; /* Blue */
 }
 
 #blog {
