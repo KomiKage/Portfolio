@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -17,7 +18,7 @@
 
   <div class="hero-image">
     <div class="hero-text">
-      <h1 class="glow">I am Bryan van Dongen</h1>
+      <h1 class="glow">My name's Bryan van Dongen</h1>
       <p>And I'm a Developer</p>
     </div>
    </div>
@@ -25,9 +26,9 @@
    <div id="mySidenav" class="sidenav">
     <a href="index.html" id="about" style="font-family: 'Aldrich';">About</a>
     <a href="projects.html" id="projects" style="font-family: 'Aldrich'; font-size: 16px;">Projects</a>
-  </div>
+  </div>  
 
-<div class="lain" style="position: absolute; left: auto; top: 55%;">
+<div class="lain">
   <p>
     <h1 class="glow1">
       About me
@@ -43,45 +44,67 @@
   </p>
 </div>
 
-<img src="images/retrosun.gif" alt="Vaporwave" style="position: absolute; right: 30px; width: 35%;">
-
-  <div style="background-color: rgba(32, 8, 51, 0.781); padding: 10px; margin: -10px; top: 60%; position:relative ; border-radius: 15px; width: 60%;">
-
-  <h1 class="glow" style="font-size: 40px;">skill confidence</h1>
-
-    <p style="color: aliceblue;">Python</p>
-  <div class="container">
-    <div class="skills skill1">70%</div>
-  </div>
-
-  <p style="color: aliceblue;">C#</p>
-  <div class="container">
-    <div class="skills skill2">60%</div>
-  </div>
-
-  <p style="color: aliceblue;">HTML</p>
-  <div class="container">
-    <div class="skills skill3">50%</div>
-  </div>
-
-  <p style="color: aliceblue;">CSS</p>
-  <div class="container">
-    <div class="skills skill4">50%</div>
-  </div>
-</div>
-
 <div class="thewired">
-<h1 class="glow2">contact</h1>
-<h2 class="parasub">
-  CONTACT INFO COMING SOON
-</h2>
-</div>
+  <h1 class="glow2">contact</h1>
+  <h2 class="parasub">
+    <div class="cointainer logocontainer">
+      <div class="row">
+          <div class="col-sm-3">
+              <a href="https://github.com/KomiKage" target="_blank"><img class="logo" src="images/logos/github-logo.png" alt=""></a>
+            </div>
+            <div class="col-sm-3">
+              <a href="https://www.linkedin.com/in/bryan-van-dongen-9b92a722a/" target="_blank"><img class="logo" src="images/logos/linkedin.png" alt=""></a>
+            </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-3">
+              <a href="mailto: bryanvd654@hotmail.com"><img class="logo" src="images/logos/mail.png" alt=""></a>
+            </div>
+            <div class="col-sm-3">
+              <a href="tel:+0681365791"><img class="logo" src="images/logos/phone.png" ></a>
+            </div>
+  </h2>
+  </div>
 
+  <div class="skills">
+    <p>
+      <h1 class="glow2">
+        Skills
+      </h1>
+      <h2 class="parasub" style="position: relative; bottom:50 px; text-align: left;">
+        <b>C#</b>         : 2y experience   : A lot of C# experience in unity <br><br>
+        <b>Python</b>     : 2y experience   : A lot of Python experience, mainly with my own projects <br><br>
+        <b>HTML</b>       : 2y experience   : I've made a decent amount of websites but HTML has never been my strong suit <br><br>
+        <b>CSS</b>        : 2y experience   : I've made a decent amount of websites but CSS has never been my strong suit <br><br>
+        <b>Javascript</b> : 0.5y experience : I'm new to Javascript but I'm comfortable with it <br><br>
+      </h2>
+    </p>
+  </div>
+
+<img src="images/retrosun.gif" alt="Vaporwave" class="retrogif">
 
 <div style="position: absolute; right: 500px; top: 10000px;">
   
 </div>
 
+<!-- phoneModal -->
+<div class="modal" id="phoneModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
   <script>
     // When the user scrolls the page, execute myFunction
