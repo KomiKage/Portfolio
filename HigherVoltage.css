@@ -1,0 +1,422 @@
+body {
+    
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://images2.alphacoders.com/941/thumb-1920-941898.jpg');
+  
+   background-size: cover; 
+ }
+
+ body, html {
+    height: 100%;
+}
+
+.logo{
+  transform: scale(0.3);
+}
+
+.paradom{ 
+  color: rgb(0, 0, 0); 
+  background-color: aliceblue; 
+  border-color: #4500e7;
+  border-style: inset; 
+  border-width: 5px;
+  text-align: center;
+}
+
+.parasub{
+  color: aliceblue; 
+  text-align: center;
+  font-size: 18px;
+  text-shadow: 2px 2px #000000;
+}
+
+.lain{
+  position: absolute;
+  left: auto;
+  top: 55%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/vapor.jpg');
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.skills{
+  position: absolute;
+  left: auto;
+  top: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/vapor.jpg');
+  border-radius: 25px;
+  padding: 20px;
+  max-width: 700px;
+}
+
+.thewired{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/yuh.jpg');
+  color: aliceblue;
+  width: 35%;
+  top: 55%;
+  position: absolute;
+  right: 3%;
+  border-radius: 25px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+.projdiv {
+  width: 30%; 
+  position: relative; 
+  left: 5%;
+  border-color: #4500e7;
+  border-style: inset; 
+  border-width: 5px;
+  background-color: rgb(255, 255, 255);
+  height: 750px;
+}
+
+.projhead {
+  color: black; 
+  position: relative; 
+  text-align: center;
+  font-family: 'Aldrich';font-size: 22px;
+}
+
+.projtext {
+  color: black; 
+  position: relative; 
+  text-align: center;
+  font-size: 20px;
+}
+
+.logocontainer {
+  right: 0px;
+}
+
+.logo {
+  width: 100%;
+  transform: scale(1);
+}
+
+.retrogif {
+  position: absolute;
+  right: 100px;
+  width: 35%;
+  top: 100%;
+}
+
+
+
+
+/* HERO IMAGE */
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/retro.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  border-style: inset;
+  border-color: #00000059;
+
+  border-radius: 0%;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+  border-radius: 10px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.glow {
+  font-size: 52px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.glow1 {
+  font-size: 52px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow1 1s ease-in-out infinite alternate;
+  -moz-animation: glow1 1s ease-in-out infinite alternate;
+  animation: glow1 1s ease-in-out infinite alternate;
+}
+
+.glow2 {
+  font-size: 52px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow2 1s ease-in-out infinite alternate;
+  -moz-animation: glow2 1s ease-in-out infinite alternate;
+  animation: glow2 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+@-webkit-keyframes glow1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #001aff, 0 0 40px #0077e6, 0 0 50px #00b8e6, 0 0 60px #009de6, 0 0 70px #001aaf;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #79e0ff, 0 0 40px #504dff, 0 0 50px #4d2eff, 0 0 60px #7023ff, 0 0 70px #5f4dff, 0 0 80px #1028b1;
+  }
+}
+
+@-webkit-keyframes glow2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff520d, 0 0 40px #f1591d, 0 0 50px #e68200, 0 0 60px #f19f24, 0 0 70px #f37208;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff8dd9, 0 0 40px #ff5bc8, 0 0 50px #e75ca1, 0 0 60px #c910aa, 0 0 70px #c713af, 0 0 80px #eb3cc5;
+  }
+}
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+  top: 20px;
+  background-color: #00f7ff;
+}
+
+#projects {
+  top: 80px;
+  background-color: #ff00f2; /* Blue */
+}
+
+#blog {
+  top: 140px;
+  background-color: #f700ff; /* Red */
+}
+
+#contact {
+  top: 200px;
+  background-color: #fbff00 /* Light Black */
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+
+
+
+
+/* I am so confused...
