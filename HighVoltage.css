@@ -1,8 +1,8 @@
 body {
     
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/testTex.jpg');
+  background-image: url('https://media.nu.nl/m/m1mxh8ba191c_std1024.jpg');
   
-   background-size: cover; 
+   background-size: cover;
  }
 
  body, html {
@@ -33,7 +33,7 @@ body {
   position: absolute;
   left: auto;
   top: 55%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/vapor.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('');
   border-radius: 25px;
   padding: 20px;
 }
@@ -42,14 +42,14 @@ body {
   position: absolute;
   left: auto;
   top: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/vapor.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('');
   border-radius: 25px;
   padding: 20px;
   max-width: 700px;
 }
 
 .thewired{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/yuh.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('');
   color: aliceblue;
   width: 35%;
   top: 55%;
@@ -89,8 +89,9 @@ body {
 .projtext {
   color: black; 
   position: relative; 
-  text-align: center;
+  text-align: left;
   font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .logocontainer {
@@ -106,7 +107,7 @@ body {
   position: absolute;
   right: 100px;
   width: 35%;
-  top: 85%;
+  top: 70%;
 }
 
 
@@ -116,7 +117,7 @@ body {
 
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/retro.jpg");
+  background-image: url("images/xp1.jpg");
 
   /* Set a specific height */
   height: 50%;
